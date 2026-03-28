@@ -514,6 +514,13 @@ ninja.data = [{
           window.open("mailto:%6A%6F%6E-%61%72%6E%6F%6C%64@%6F%75%74%6C%6F%6F%6B.%63%6F%6D", "_blank");
         },
       },{
+        id: 'social-orcid',
+        title: 'ORCID',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://orcid.org/0009-0005-9782-6398", "_blank");
+        },
+      },{
         id: 'social-github',
         title: 'GitHub',
         section: 'Socials',
